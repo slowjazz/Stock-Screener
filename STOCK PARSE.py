@@ -1,3 +1,4 @@
+from datetime import datetime 
 import csv
 import urllib
 from collections import defaultdict
@@ -43,7 +44,8 @@ for key in n:
 #consolidation of data to dictionary data2
 
 print dict(data2)
-
+time=datetime.now()
+print "Last updated" '%s/%s/%s' % (time.hour, time.minute, time.second) 
 #DATA INTERPRETATION USING DICTIONARY data2
 
 raw_input("Press any key to exit") #so the prorgram doesnt steal your fap
