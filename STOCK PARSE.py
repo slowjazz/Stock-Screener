@@ -48,4 +48,4 @@ time=datetime.now()
 print "Last updated" '%s/%s/%s' % (time.hour, time.minute, time.second) 
 #DATA INTERPRETATION USING DICTIONARY data2
 
-raw_input("Press any key to exit") #so the prorgram doesnt steal your fap
+raw_input("Press any key to exit") 
